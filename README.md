@@ -9,6 +9,11 @@ $ ./life
 ```
 ![example output for size = 50](./img/50.png)  
 
+because the program outputs each frame to standard output, you could track each frame's movement in a text file like this:
+```
+$ life > output.txt
+```
+
 ## flags
 the default matrix size is 50, and the default frame rate is about every 100 ms. to use different values, supply them to the `--size` or `--speed` flags like this: 
 
